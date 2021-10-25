@@ -1,0 +1,48 @@
+part 1
+
+Git
+
+instead of a version of each file, we only save the changes to this file,
+this system is called git (version control), manage all the changes made 
+in the same file, then different people can work in the same project 
+without problem, moreover when there are Errors we can know who made those 
+change and we can return other old version of the code.
+
+concluion: git only save the changes in the file and indicate where and when
+happaned and who made this changes
+
+Github
+
+Is the social red of the code, where we upload our code to this in a remote 
+repository
+
+Nota: learn Gitlab
+
+create a file called biografia.txt and write the command:
+
+git init - this command iniciate repository (data base where save
+all the changes)
+
+git add biografia.txt - add the new file to the repository
+
+git commit -m "version 1 of biografia.txt" - send changes to the date base
+
+other option for add files is: git add .
+
+git status - see status of the data base
+
+git diff - show all change history made before git add .
+git show - show all change history made after of a commit
+
+git log biografia.txt - see all story of a file
+
+git push - send to the remote repository
+
+git pull - bring all the changes of the remote repository
+
+Note: git apt-get upgrade - update all old files of linux
+
+Note:
+
+git add - we make track to the file (this is temporal, previous to git commit)
+git commit - send all for save in the local repository 

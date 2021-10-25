@@ -1,0 +1,25 @@
+Flow work
+
+When we made git add, we send our changes to staging (site temporal before of send to local repository), 
+this is area of preperation, where git make a tracking, after git commit we will save in the local 
+repository.
+
+git commit - send staging to local repository
+
+Then flow work in git is:
+
+We made changes in our project --> git add send to staging --> git commit staging to local repository
+--> git push send all to the remote repository in Github
+
+Remote repository is a server where save the our project, use for differents programers can work in a
+same project.
+
+git clone url - bring a remote repository a our local repository and no alter a staging
+
+git fetch - if other programer made update remote repository then bring this changes
+to our local repository (date base of changes)
+
+git merge - after git fetch we must this command for copy the update in our project,
+fusion of version actual with the version of my project.
+
+git pull - fusion of git fetch and git merge
