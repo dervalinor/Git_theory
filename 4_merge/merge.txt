@@ -1,0 +1,24 @@
+Now we will learn to fusion of branch with the command:
+
+git merge - join branch
+
+Exercise - fusion of branch master and Git_pro for join the index.html and 
+Hallo.py and Biografia.txt
+
+git merge happen in the branch where this, example if we made git merge in 
+master then we joined the branch Git_pro to master:
+
+git checkout master
+
+git merge Git_pro - give a message when open vim
+
+git status - see the fusion of branch and too all the commit
+of other branch
+
+Problem if two programer modify the same line of code of the same file then
+happen a conflict, solution of this conflic is:
+
+git branch Git_pro - Git pro exist after of a merge !!!
+git marge master - bring all to branch Git_pro
+
+Solution - choose the line for conserve and delete to other line

@@ -1,0 +1,21 @@
+The branch let work in different thing without affect the main branch, default
+all our projects in git are save in the branch master and the last commit is
+called HEAD.
+
+When we created a new branch generate a copy the HEAD in other side and 
+all the changes made in this new branch no affect to the branch master
+
+git merge - use for fusion of branch
+
+git commit -am "comment about code" - combine git add and git commit, this only
+apply to file created before and applied git commit -m, NO new files 
+
+git log --stat - indicate the files changes or added (see number line changes)
+
+git status - we can see the branch where we are working and indicate if 
+we must make or no commits, see the HEAD
+
+git branch <name_new_branch> - create a branch 
+
+git checkout <name_branch> - move between branch, let change the HEAD to 
+other branch

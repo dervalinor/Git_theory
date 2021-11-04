@@ -1,0 +1,35 @@
+Github
+
+Is a website where this have a super server of git, we can this site clone or 
+create a repository and share with other people, is the social red of code.
+
+Add README.md for we explain to the people
+Optional: add the licence this can optional or free (open source)
+
+We can open a file in Github and exist the options of raw (see file in text), 
+blame (people creator of file) and history (as git log, show the commitso)
+
+git clone <link_github>- we can put two type of links https and ssh
+git remote add origin <link_github> - indicate a our local repository will 
+add to remote resository of github
+
+git remote -- see if exist a remote repository 
+git remote -v -- see the link of github
+git fetch -- bring the last version of remote repository of github
+git push origin <name_branch> - send to origin (link of repository of github)
+all the files and changes of the this branch 
+
+Solution to the error first git push:
+
+git pull origin <name_branch --allow-unrelated-histories
+bring all the changes of repository github when the histories unrelated, the 
+local and remote repository are very different
+
+the we can make git push correct:
+git push origin <name_branch> 
+
+Note: we can modify, delete and other options in https://github.com/name_user/name_repository/setting
+
+Exercise
+
+make changes to files of github, commit and git pull

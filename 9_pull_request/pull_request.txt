@@ -1,0 +1,11 @@
+In a real project the branch master is block so evoid modify this (git merge), and all proof are 
+make in other branch (called staging develop) with a proof server.
+
+To server our send all the project in master for our app or website
+
+First we create a branch where we are going to work, after we will send this code to pull request (intermedary
+before of staging develop), pull request is use for revise the code and after send to staging develop.
+
+Pull request - other members of the group of developer can watch the code and approve this.
+
+Finally for make a merge to the branch master we use a pull request, this is characterist of github.

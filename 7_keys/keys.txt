@@ -1,0 +1,35 @@
+Public and private keys
+
+The public key, we use for encrypt a message and we can see this message with the private key.
+We only can share the public key for other person could code a message and see with private key.
+
+When we make a git push we must put the name of user and password (protocol https) and can be hack, then for evoid this
+use public key and private key, too we don't login in github git push and other thing.
+
+Send public to github and connect with new protocol ssh, after github will send its own public key
+and created a double way of encryted.
+
+Practice
+
+git config -l : see the config of git (user and email)
+git config --global user.email "email_git" : if we want change the user email
+
+Creation of private and public key
+
+ssh-keygen -t rsa -b 4096 -C "email_git"
+eval $(ssh-agent -S) : verify if server ssh is working
+
+Now we add the key (add the direction of private key)
+
+ssh-add ~/.ssh/id_rsa 
+
+Note: each pc have own private key
+
+Add to github the public key (NO private key)
+
+go github - setting -SSH and GPG key - add new 
+
+change git clone of https to ssh
+change address of git remote
+
+git remote set-url origin <address_ssh>

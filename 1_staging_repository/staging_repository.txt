@@ -1,0 +1,21 @@
+We have a our folder for work with for start:
+
+git init - iniciate local repository, this create in memory ram 
+a space called staging and this first place where we goint to save
+our changes in the code but this is temporal !!!, for save change of 
+permanent way use git commit
+
+git add - add changes to staging, this files is track for git
+git rm - remove changes of staging
+
+git commit -m "Comment" - add changes to local repository for new file
+git commit -am "Comment" - add changes to local repository for old file
+
+Folder .git is save all the changes in my project
+
+Default all changes are send to branch master
+
+Note: use master for send version end to the code for production and use branch
+for modify the project in phase proof
+
+git checkout - bring specific changes or all to my local repository

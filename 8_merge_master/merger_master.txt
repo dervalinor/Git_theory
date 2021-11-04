@@ -1,0 +1,8 @@
+The best practices of programming say: 
+
+1. no add images to the remote repositories (a image is a file binary no flat text)
+2. only make merge to master or main when the code is ready for production
+3. make all the rest of modify in other branch NO in main branch
+4. git pull origin <name_branch> - make a git pull before of git push for bring the last version
+5. git merge - to master generally make the leader of the project
+6. pull request - when a person no make part of the group of the project

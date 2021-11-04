@@ -1,0 +1,25 @@
+we can return in the time to a previous commit, for this:
+
+1. git log - see the commit
+2. copy the id of the commit where we want to return
+3. git reset <id> --hard - reset hard all return to commit previous
+4. git reset <id> --soft  - reset soft but changes staging conserve
+and list for the next commit
+
+Example
+
+1. git log
+2. copy id of prevoiu commit 494e32fc4b0bee774a67c23b13eaa861623f6f52
+3. git reset 494e32fc4b0bee774a67c23b13eaa861623f6f52 --hard
+
+Note: git reset <id> --hard : delete all and return to previous commit !!!
+
+git diff - show the new changes vs changes saved in staging (before of git add)
+git log --stat - see the specific in each commit
+git checkout <id> name_file - see a file in a previous version
+git checkout <name_branch> name_file - return to the last version
+
+Example: see biografia.txt in first version
+
+git checkout cce56b7c9317589811a7f2c273ff1bd49941b05e biografia.txt - WARNING: if we make a commit we return a the first version and lost other work
+git checkout master biografia.txt - return a the last version
