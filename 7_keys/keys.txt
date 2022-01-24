@@ -17,7 +17,7 @@ git config --global user.email "email_git" : if we want change the user email
 Creation of private and public key
 
 ssh-keygen -t rsa -b 4096 -C "email_git"
-eval $(ssh-agent -S) : verify if server ssh is working
+eval $(ssh-agent -s) : verify if server ssh is working
 
 Now we add the key (add the direction of private key)
 
