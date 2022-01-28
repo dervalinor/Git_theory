@@ -9,3 +9,5 @@ before of staging develop), pull request is use for revise the code and after se
 Pull request - other members of the group of developer can watch the code and approve this.
 
 Finally for make a merge to the branch master we use a pull request, this is characterist of github.
+
+Approved the pull request then there is merge to master

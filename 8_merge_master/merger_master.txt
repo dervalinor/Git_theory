@@ -1,4 +1,4 @@
-The best practices of programming say: 
+he best practices of programming say: 
 
 1. no add images to the remote repositories (a image is a file binary no flat text)
 2. only make merge to master or main when the code is ready for production

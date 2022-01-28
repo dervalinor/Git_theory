@@ -1,0 +1,7 @@
+If a project is open source and someone want contribute to this project (this person isn't collaborator) in this
+case use the function of github Fork.
+
+When a person isn't collaborator then cannot make push, merge, pull request ... then he must clone the repository in his remote 
+repository for this give click to the repository open source Watch, Star and Fork.
+
+Give Fork we can clone the repository open source in our repository github
