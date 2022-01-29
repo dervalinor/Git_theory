@@ -1,0 +1,9 @@
+.gitignore - do not send certain files to repository of github, this files are ignore
+.gitignore is a list of files to ignore of the repository
+
+If we write in the .gitignore *.jpg indicate to ignore all the files .jpg
+
+Is bad practice save files as pictures or videos in a remote repository !!!!. add all the binary files of url
+as a link of picture of red social, cloud, imgur.com ...
+
+First a git pull before git push !!!!
