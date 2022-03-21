@@ -17,3 +17,6 @@ If we want delete a git stash:
 git stash drop
 
 the command git stash let to have changes in temporal, is very useful
+
+COMMAND VERY USEFUL: git log --oneline 
+show more detail the project of git

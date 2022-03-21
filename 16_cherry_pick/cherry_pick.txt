@@ -1,0 +1,5 @@
+If we are advancing in a branch and master they are needing a this progress of the branch
+for this use git cherry pick
+
+then we go to branch master:
+git cherry-pick <hash or id>

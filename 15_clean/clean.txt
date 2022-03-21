@@ -1,0 +1,5 @@
+When we need to clean useless files this we can make with git clean
+this command remove the files
+
+git clean --dry-run  -- show the files would remove
+git clean -f  -- delete the useless files
