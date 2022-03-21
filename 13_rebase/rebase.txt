@@ -1,0 +1,7 @@
+git rebase -- use for add changes other branch to main and delete the other branch and this never existed
+git rebase <branch_main> -- make to rebase from branch to delete
+git rebase <branch_to_delete> -- after make to rebase of the branch main
+
+Some error solution git reset
+
+git branch -D <branch_name> -- delete a branch

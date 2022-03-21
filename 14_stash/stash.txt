@@ -1,0 +1,19 @@
+if I want to make some changes but I want not save this modifications and change to other branch
+then use git stash
+
+git stash
+
+after we can change of branch without problem
+
+git stash list -- see changes saved with stash
+git stash pop -- show the changes saved with stash
+
+we could save the changes in other new branch
+
+git stash branch <name_branch>
+git commit -- now we could save the changes in this branch
+
+If we want delete a git stash:
+git stash drop
+
+the command git stash let to have changes in temporal, is very useful
