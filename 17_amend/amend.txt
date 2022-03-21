@@ -1,0 +1,6 @@
+when we created a commit but we want not saved this commit then
+
+git add <file_change>
+git commit --amend  ---- the changes the add the previous commit
+
+Command very useful: git log --stat
