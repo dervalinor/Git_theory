@@ -1,0 +1,8 @@
+This command is very useful when we broke all the project and 
+need recovery this:
+
+git reflog --- see all the commit of project include the removed for git reset
+
+this command too recovery until the removed files
+git reset --HARD <id>
+

@@ -1,0 +1,22 @@
+use the commands alias for create new commands for git
+
+git shortlog -- see all the commit of members of team
+git shortlog -sn  --- show the people made commits
+git shortlog -sn --all   --- show all the commits even removed commits
+git shortlog -sn --all --no-merges  --- show all the commit excluded the merges
+
+This commands can use abreviation and add to git
+
+Example: 
+we want add the command: git shortlog -sn --all --no-merges --- abreviation to: stats
+For this use alias
+
+git config --global alias.stats "shortlog -sn --all --no-merges"
+
+git blame -c <filename> --- show the people made changes to the file
+git <command> --help  --- show the manual for this command
+git blame <filename> -L<linenumber>,<linenumber> --- show the people made changes in this interval of lines
+git branch -r  --- show the branches remote (of the repository github)
+git branch -a  --- show all the branches (local and remote)
+
+Github the option insight show all the information of project: Github - insight

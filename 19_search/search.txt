@@ -1,0 +1,12 @@
+If we need to search a word in our porject
+
+git grep <word_search>
+git grep -n <word_search> --- show the number of line in the project
+git grep -c <word_search> --- show the number of time this word
+
+we can search a tag html
+
+git grep "<tag>"
+
+Search a word in a commit:
+git log -S "<word_search>"
